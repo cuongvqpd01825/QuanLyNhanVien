@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".QLNVActivity"></activity>
+        <activity android:name=".DanhSachActivity"></activity>
     </application>
 
 </manifest>
