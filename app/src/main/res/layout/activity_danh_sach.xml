@@ -6,13 +6,16 @@
     android:layout_height="match_parent"
     android:padding="15dp"
     android:orientation="vertical"
-    tools:context="com.example.pc.quanlynhanvien.DanhSachActivity">
+    tools:context="com.example.pc.quanlynhanvien.DanhSachActivity"
+    android:background="#f9f5ec">
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="28dp"
+        android:textStyle="bold"
         android:text="List Employees"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:textColor="#786666"/>
     <ListView
         android:id="@+id/lvList"
         android:layout_width="match_parent"
