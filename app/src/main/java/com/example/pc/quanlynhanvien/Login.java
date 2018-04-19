@@ -30,8 +30,28 @@ public class Login extends AppCompatActivity {
                 } else if (pass.getText().length() == 0) {
                     Toast.makeText(getApplicationContext(), "Không được bỏ trống mật khẩu !", Toast.LENGTH_SHORT).show();
                 } else {
-                    if (strUserName.equalsIgnoreCase("admin") &&
-                            strPassword.equalsIgnoreCase("admin")) {
+                    if (strUserName.equalsIgnoreCase("Toi") &&
+                            strPassword.equalsIgnoreCase("Toi")) {
+                        Toast.makeText(getApplicationContext(), "Login successfull", Toast.LENGTH_SHORT).show();
+
+                        Intent intent = new Intent(Login.this, QLNVActivity.class);
+                        startActivity(intent);
+                    }
+                    else{
+                        Toast.makeText(getApplicationContext(), "Sai 'User Name' hoac 'Password' !", Toast.LENGTH_SHORT).show();
+                    }
+                    if (strUserName.equalsIgnoreCase("Cuong") &&
+                            strPassword.equalsIgnoreCase("Cuong")) {
+                        Toast.makeText(getApplicationContext(), "Login successfull", Toast.LENGTH_SHORT).show();
+
+                        Intent intent = new Intent(Login.this, QLNVActivity.class);
+                        startActivity(intent);
+                    }
+                    else{
+                        Toast.makeText(getApplicationContext(), "Sai 'User Name' hoac 'Password' !", Toast.LENGTH_SHORT).show();
+                    }
+                    if (strUserName.equalsIgnoreCase("Nguyen") &&
+                            strPassword.equalsIgnoreCase("Nguyen")) {
                         Toast.makeText(getApplicationContext(), "Login successfull", Toast.LENGTH_SHORT).show();
 
                         Intent intent = new Intent(Login.this, QLNVActivity.class);
